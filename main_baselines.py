@@ -20,7 +20,7 @@ from model.caser import CaserRS
 from data_provider import DataProvider
 from utils import str2bool, set_seed, get_feature_vector, cal_fv_dist
 from params import NetParams
-from prs import evaluate_prob
+from pipeline import evaluate_prob
 
 ### Configuration for the task
 parser = argparse.ArgumentParser()
