@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import torch
 import argparse
-from baselines import POP, MC, FPMC, TransRec, BPR
+from model.baselines import POP, MC, FPMC, TransRec, BPR
 from model.sas import SASRec
 from model.caser import CaserRS
 from data_provider import DataProvider
