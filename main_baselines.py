@@ -15,8 +15,8 @@ import pandas as pd
 import torch
 import argparse
 from baselines import POP, MC, FPMC, TransRec, BPR
-from sas import SASRec
-from caser import CaserRS
+from model.sas import SASRec
+from model.caser import CaserRS
 from data_provider import DataProvider
 from utils import str2bool, set_seed, get_feature_vector, cal_fv_dist
 from params import NetParams
